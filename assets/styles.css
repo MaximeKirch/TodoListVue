@@ -1,0 +1,107 @@
+body {
+  background:linear-gradient(#e66465, #9198e5);
+  margin: 0px;
+  font-family: tahoma;
+  color: #282828;
+  height:100vh;
+}
+
+#app {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: auto;
+}
+
+.todo-container {
+  background: #2e2e2e;
+  width: 60%;
+  margin: 20px 0px;
+  border-radius: 10px;
+  padding: 10px;
+  height:auto;
+  min-height:60vh;
+  color: #e2e2e2;
+}
+
+.title {
+  text-align:center ; 
+}
+
+.add-task {
+  display: flex;
+  justify-content:space-around;
+  width:auto;
+}
+
+#addInput {
+  background:none;
+  border:none;
+  border-bottom:1px solid #e2e2e2;
+  color:#e2e2e2;
+  font-size:16px;
+  width:80%;
+  align-self:center;
+}
+
+#addInput:focus {
+  outline: none;
+}
+
+.addButton {
+  border: none;
+  width:100px;
+  height:40px;
+  background:#e2e2e2;
+  color:#2e2e2e;
+  font-size:16px;
+}
+
+.addButton:hover{
+  cursor:pointer;
+}
+
+.task-list {
+  width: auto;
+}
+
+.task-list ul {
+  width: auto;
+}
+
+.task-list li {
+  list-style: none;
+  height:80px;
+  width:auto;
+  max-width:auto;
+}
+
+.completedTask {
+  text-decoration:line-through;
+}
+
+.inline-task {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  align-items:center;
+  max-width:auto;
+  position:relative;
+}
+
+.removeBtn {
+  height:25px;
+  width:auto;
+  border: 1px solid #9198e5;
+  color: #9198e5;
+  background:none;
+  border-radius:5px;
+  font-weight:16px;
+  margin: 0px 5px;
+  position:absolute;
+  right:0;
+}
+
+.removeBtn:hover {
+  cursor:pointer;
+}
